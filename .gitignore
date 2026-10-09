@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+
+# Local environments and secrets
+venv/
+.venv/
+env/
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local user activity and generated artifacts
+data/user_history.csv
+data/favorites.csv
+data/feedback.csv
+*.log
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
